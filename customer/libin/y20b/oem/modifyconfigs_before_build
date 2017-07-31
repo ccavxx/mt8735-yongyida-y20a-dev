@@ -1,0 +1,6 @@
+openfile:custom.conf
+endfile:custom.conf
+
+openfile:ProjectConfig.mk
+MTK_FPGA_LOAD_SUPPORT=yes
+endfile:ProjectConfig.mk

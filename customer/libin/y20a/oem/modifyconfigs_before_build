@@ -1,0 +1,11 @@
+openfile:custom.conf
+dm.Model = Y20
+bluetooth.HostName = Yong_BT
+fmtransmitter.RDSValue = Yongyida
+wlan.SSID = Yong_AP
+endfile:custom.conf
+
+openfile:ProjectConfig.mk
+MTK_FPGA_LOAD_SUPPORT=yes
+MTK_NEW_MOTOR_CODE=yes
+endfile:ProjectConfig.mk

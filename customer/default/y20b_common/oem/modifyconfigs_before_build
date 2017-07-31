@@ -1,0 +1,8 @@
+openfile:custom.conf
+dm.Model = Y20
+bluetooth.HostName = Robot_BT
+fmtransmitter.RDSValue = Robot
+wlan.SSID = Robot_AP
+endfile:custom.conf
+
+

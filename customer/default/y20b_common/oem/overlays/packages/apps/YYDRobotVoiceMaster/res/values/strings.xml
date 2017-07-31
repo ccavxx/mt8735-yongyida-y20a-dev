@@ -1,0 +1,740 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">YYDRobotVoiceMaster</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="appid">56065ce8</string>
+
+    <!-- common -->
+    <string name="comman_unkonw">这个问题,我还没学会</string>
+    <!-- common -->
+
+    <string name="pref_title_iat_show">显示听写界面</string>
+    <string name="pref_key_iat_show">iat_show</string>
+    <string name="app_name1">拍照</string>
+    <string name="app_name2">录像</string>
+
+    <!-- tq001_sinology -->
+    <string name="tq001_meiyouzheshoushi">对不起,没有这首诗</string>
+    <!-- tq001_sinology -->
+
+
+    <!-- tq002_learnsinology -->
+    <string name="learnsinology_qingtingti">请听题:</string>
+    <string name="learnsinology_dexiayijushishenme">,的下一句是什么</string>
+    <string name="learnsinology_huidazhengque">回答正确</string>
+    <string name="learnsinology_huidacuowu">回答错误</string>
+    <string name="learnsinology_de">的</string>
+    <string name="learnsinology_zai">在</string>
+    <string name="learnsinology_limiande">里面写的:</string>
+    <string name="learnsinology_zhongwen_douhao">，</string>
+    <string name="learnsinology_zhongwen_juhao">。</string>
+    <!-- tq002_learnsinology -->
+
+
+    <!-- tq003_movieinfo -->
+    <string name="tq003_videoinformation_geinituijian">给你推荐这些好看的电影吧:</string>
+    <string name="tq003_videoinformation_duibuqi">对不起,我找不到这种类型的电影</string>
+    <string name="tq003_videoinformation_area_cn_dalu">大陆</string>
+    <string name="tq003_videoinformation_area_cn_zhongguo">中国</string>
+    <string name="tq003_videoinformation_area_cn_niedi">内地</string>
+    <string name="tq003_videoinformation_area_cn_guochan">国产</string>
+    <string name="tq003_videoinformation_area_hk_xianggang">香港</string>
+    <string name="tq003_videoinformation_area_hk_gangchan">港产</string>
+    <string name="tq003_videoinformation_area_western_meiguo">美国</string>
+    <string name="tq003_videoinformation_area_western_haolaiwu">好莱坞</string>
+    <string name="tq003_videoinformation_area_western_oumei">欧美</string>
+    <!-- tq003_movieinfo -->
+
+
+    <!-- tq004 -->
+    <string name="tq004_dance_dianyadi">电压低,不能跳舞</string>
+    <string name="tq004_tingzhi">停止</string>
+    <string name="tq004_buyao">不要</string>
+    <string name="tq004_bie">别</string>
+    <!-- tq004 -->
+
+
+    <!-- tq007_music -->
+    <string name="tq007_liuxing">流行</string>
+    <string name="tq007_yinyuemeizhaodao">音乐没找到</string>
+    <string name="tq007_nothing_opera">戏曲未找到</string>
+    <string name="tq007_zhoujielun">周杰伦</string>
+    <string name="tq007_tiao">跳</string>
+    <string name="tq007_xiqu">戏曲</string>
+    <string name="tq007_xi">戏</string>
+    <string name="tq007_xiqqu">戏去</string>
+    <string name="tq007_jingju">京剧</string>
+    <!-- tq007_music -->
+    <string-array name="language_entries">
+        <item>普通话</item>
+        <item>粤语</item>
+        <item>河南话</item>
+        <item>英语</item>
+    </string-array>
+    <string-array name="language_values">
+        <item>mandarin</item>
+        <item>cantonese</item>
+        <item>henanese</item>
+        <item>en_us</item>
+    </string-array>
+    <string-array name="punc_entries">
+        <item>有标点</item>
+        <item>无标点</item>
+    </string-array>
+    <string-array name="punc_values">
+        <item>1</item>
+        <item>0</item>
+    </string-array>
+    <string-array name="stream_entries">
+        <item>通话</item>
+        <item>系统</item>
+        <item>铃声</item>
+        <item>音乐</item>
+        <item>闹铃</item>
+        <item>通知</item>
+    </string-array>
+    <string-array name="stream_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+
+    <string name="app_id">56065ce8</string>
+    <string name="dyc_map_search">正在搜索</string>
+    <string name="dyc_map_route_start">我给你提够一条速度最快的路线。</string>
+    <string name="dao">到</string>
+    <string name="dyc_map_key_city">市</string>
+    <string name="juli_key">距离</string>
+    <string name="duoyuan_key">多远</string>
+    <string name="juli">的距离大概是</string>
+    <string name="danwei">公里</string>
+    <string name="here">这里</string>
+    <string name="me">如果我没记错的话，</string>
+    <string name="start_speak">开始播放</string>
+    <string name="pause_speak">暂停播放</string>
+    <string name="continue_speak">继续播放</string>
+    <string name="complete_speak">播放完成</string>
+    <string name="error_initialize">初始化失败,错误码：</string>
+    <string name="error_Tts">语音合成失败,错误码：</string>
+    <string name="input_number">只能输入数字哦</string>
+    <string name="beyond_scope">超出有效值范围</string>
+    <string name="error_path">路线计算失败,检查参数情况</string>
+    <string name="pls">请先进行相对应的路径规划，再进行导航</string>
+    <string name="no_result">对不起，没有搜索到相关数据！</string>
+    <string name="error_network">搜索失败,请检查网络连接！</string>
+    <string name="error_key">key验证无效！</string>
+    <string name="error_other">未知错误，请稍后重试!错误码为</string>
+    <string name="tts_toast_format" formatted="false">缓冲进度为%d%%，播放进度为%d%%</string>
+    <string name="text_begin">请开始说话…</string>
+    <!-- dyc001 -->
+    <!-- 特殊地点 -->
+    <string name="DYlands">钓鱼岛</string>
+    <string name="HYlands">黄岩岛</string>
+    <string name="success">主人,找到你想要的位置了</string>
+    <string name="fail">主人,对不起,没有你要找的城市</string>
+    <!-- dyc001 -->
+
+
+    <!-- dyc002 -->
+    <string name="no_story">真心不明白你在说什么</string>
+    <string name="link_error">网络请求失败</string>
+    <string name="storyname">好的，让我来给你讲</string>
+    <string name="storytext">的故事吧。</string>
+    <!-- dyc002 -->
+
+
+    <!-- dyc003 -->
+    <string name="down_percent">下跌百分之</string>
+    <string name="down">下跌</string>
+    <string name="yuan">元，</string>
+    <string name="up_percent">上涨百分之</string>
+    <string name="up">上涨</string>
+    <string name="point">点，</string>
+    <string name="juhao">。</string>
+    <string name="shangzheng">上证指数为</string>
+    <string name="shencheng">深圳成指为</string>
+    <string name="hongkong">恒生指数为</string>
+    <string name="now_price">当前的股票价格为</string>
+    <string name="dot_check_stock">让您失望了，我还查询不到这支股票</string>
+    <string name="no_stock">对不起，您说的股票名字有误，请说正确的股票名字</string>
+
+    <!-- dyc_004 -->
+    <string name="dyc_poweroff">关机</string>
+    <string name="dyc_lowbattery">主人，请给我充电</string>
+    <string name="dyc_querystart">主人，我还有百分之</string>
+    <string name="dyc_queryend">的电量。</string>
+    <string name="dyc_sound_up">up</string>
+    <string name="dyc_sound_down">down</string>
+    <string name="dyc_sound_max">max</string>
+    <string name="dyc_sound_min">min</string>
+    <string name="dyc_poweroff_greet">好的，再会主人。</string>
+    <string name="dyc_response_max">现在的我再也不是矜持的我了！我要变成大嗓门了！</string>
+    <string name="dyc_response_min">主人，这么小声你是有什么秘密要告诉我吗？</string>
+    <string name="dyc_response_up">我声音大不？</string>
+    <string name="dyc_response_down">主人，您看我这样婶儿的语气您还满意不？</string>
+    <string name="dyc_sound_two">两格</string>
+    <string name="dyc_sound_three">三格</string>
+    <string name="dyc_sound_four">四格</string>
+    <string name="dyc_sound_five">五格</string>
+    <string name="dyc_up_max">好的，音量调到最大</string>
+    <string name="dyc_up">好的，音量增大</string>
+    <string name="dyc_scale">格</string>
+    <string name="dyc_up_min">好的，音量调到最小</string>
+    <string name="dyc_down">好的，音量减小</string>
+    <string name="ok">确定</string>
+    <string name="cancel">取消</string>
+    <string name="shutdown">关机</string>
+    <string name="understand">语义理解</string>
+
+    <!-- dyc001 -->
+    <string name="map_success">主人,找到你想要的位置了</string>
+    <string name="map_fail">主人,对不起,没有你要找的城市</string>
+    <string name="search">正在搜索</string>
+    <!-- dyc001 -->
+
+
+    <!-- ysh001 -->
+    <string name="add">加</string>
+    <string name="subtract">减</string>
+    <string name="multiply">乘以</string>
+    <string name="divide">除以</string>
+    <string name="children">小朋友</string>
+    <string name="equal">等于多少</string>
+    <string name="answer">等于</string>
+    <!-- ysh001 -->
+
+
+    <!-- wy001 -->
+    <string name="no_news">"这个问题对我来说有点难哦"</string>
+    <!-- wy001 -->
+
+
+    <!-- lm003 -->
+
+    <string name="weather_village">村</string>
+    <string name="weather_province">省</string>
+    <string name="weather_town">镇</string>
+    <string name="weather_mountain">山</string>
+    <string name="weather_island">岛</string>
+    <string name="weather_county">县</string>
+    <string name="weather_day">天</string>
+    <string name="weather_rain">雨</string>
+    <string name="weather_snow">雪</string>
+    <string name="weather_clear">晴</string>
+    <string name="weather_cloud">云</string>
+    <string name="weather_shade">阴</string>
+    <string name="weather_haze">霾</string>
+    <string name="weather_fog">雾</string>
+    <string name="weather_saycorrectcity">主人,你要说清楚是哪个城市才行哦</string>
+    <string name="weather_situation">的天气情况为,</string>
+    <string name="weather_temperature">,温度为:</string>
+    <string name="weather_keepwarm">。建议主人多穿几件衣服。注意保暖，</string>
+    <string name="weather_takeumbrella">。建议主人您如果要出门时，务必带把雨伞，以免被雨淋湿，导致感冒发烧。</string>
+    <string name="weather_keepsafe">。由于雾的浓度高，可见度不高，所以外出时，请务必注意安全。</string>
+    <string name="weather_below">以下是</string>
+    <string name="weather_futureday">未来几天的天气情况</string>
+    <string name="weather_standardcity">主人，天气预报是以城市来预报天气的。比如：上海今天的天气情况怎么样</string>
+    <string name="weather_Specificarea">主人，你可以说具体地区的天气情况，比如你说：北京今天的天气怎么样</string>
+    <string name="weather_excessweek">对不起，主人，我没法预知超出一周的天气情况</string>
+
+    <!-- lm003 -->
+
+
+    <!-- lm002 -->
+    <string name="endcall_specific">主人你可以说的具体一点,比如你说：我要给小李打电话</string>
+    <string name="endcall_iscalling">正在打电话给</string>
+    <string name="endcall_waitplease">,请稍候</string>
+    <string name="endcall_callplease">正在拨打电话，请稍候</string>
+    <string name="endcall_okimmediatelycall">好的，主人。我马上打电话</string>
+    <string name="endcall_sorrynotfind">对不起主人，没有在你的联系人列表里面找到</string>
+    <string name="endcall_owner">主人</string>
+    <string name="endcall_callyou">给你打电话啦，快来接电话。</string>
+    <string name="endcall_numberis">电话号码是：</string>
+    <string name="endcall_someonecallyou">主人有人给你打电话了,</string>
+    <string name="endcall_code">电话号码是 : </string>
+
+    <!-- lm002 -->
+
+    <!-- zx001 -->
+    <string name="joke">笑话</string>
+    <string name="joke_type_sport">体育</string>
+    <string name="joke_type_cool">冷</string>
+    <string name="joke_have_not_the_type_joke">暂时没有添加此类型笑话</string>
+    <string name="joke_have_not_the_joke">没有这个笑话</string>
+    <!-- zx001 -->
+
+
+    <!-- zx003 -->
+    <string name="COOK_SOURCE">豆果网</string>
+    <string name="cook_web">豆果网</string>
+    <string name="cook_not_find_the_cook">没找到这道菜</string>
+    <string name="cook_not_find">没找到</string>
+    <string name="cook_access_server_faile">访问失败</string>
+    <string name="cook_commend_love_eat">一般喜欢吃:</string>
+    <string name="cook_child1">小孩</string>
+    <string name="cook_child2">儿童</string>
+    <string name="cook_de_step_list">的做法如下:首先要准备的材料有,</string>
+    <string name="cook_step_content">,具体步骤:</string>
+    <string name="cook_no">第</string>
+    <string name="cook_step">步,</string>
+    <string name="cook_temporary_not_have">暂时没有这个菜谱</string>
+    <!-- zx003 -->
+
+
+    <!-- zx005 -->
+    <string name="query">查询</string>
+    <string name="query_false">查询失败</string>
+    <string name="temperatrue_is">温度为</string>
+    <string name="not_adaptive">主人,您还没有适配相应家电</string>
+    <string name="not_find_device">没找到该设备</string>
+    <string name="smarthome_err_frequent_operation">主人,操作不能太频繁啦</string>
+    <string name="know">好的,</string>
+    <!-- 电视 -->
+    <string name="openTV">按下电视电源键</string>
+    <string name="closeTV">按下电视电源键</string>
+    <string name="openMenu">打开电视菜单</string>
+    <string name="openSignal">打开电视信号源</string>
+    <string name="setTVMute">按下电视静音键</string>
+    <string name="tvUp">上</string>
+    <string name="tvDown">下</string>
+    <string name="left">左</string>
+    <string name="right">右</string>
+    <string name="turnup">调高</string>
+    <string name="turndown">调低</string>
+    <string name="openHomepage">打开电视主页</string>
+    <string name="back">返回</string>
+    <string name="quit">退出</string>
+    <string name="tvOk">确定</string>
+    <string name="changeNextChannel">切换下一个台</string>
+    <string name="changePrevChannel">切换上一个台</string>
+    <string name="TVSetChannel">电视切换到</string>
+    <string name="channel">台</string>
+    <string name="channelUnknow">频道数没听清楚</string>
+    <string name="turnupVolum">电视音量调高</string>
+    <string name="turndownVolum">电视音量调低</string>
+    <string name="volumeMaxOperationTip">主人您可以说把音量调高多少</string>
+    <string name="volumeMinOperationTip">主人您可以说把音量调低多少</string>
+    <string name="volumeSetOperationTip">主人您可以说把音量调高或调低多少</string>
+    <!-- 空调 -->
+    <string name="openAircondition">打开空调</string>
+    <string name="closeAircondition">关闭空调</string>
+    <string name="cool">空调设置为制冷模式</string>
+    <string name="hot">空调设置为制热模式</string>
+    <string name="auto">空调设置为自动模式</string>
+    <string name="dry">空调设置为干燥模式</string>
+    <string name="blowwind">空调设置为吹风模式</string>
+    <string name="windAuto">空调风速设置为自动模式</string>
+    <string name="strongWind">空调设置为强风</string>
+    <string name="midWind">空调设置为中等风速</string>
+    <string name="lowWind">空调设置为低风速</string>
+    <string name="turnUpWindSpeed">空调调高风速</string>
+    <string name="turnDownWindSpeed">空调调低风速</string>
+    <string name="verticalWind">空调设置为垂直扫风</string>
+    <string name="horizontalWind">空调设置为水平扫风</string>
+    <string name="openWind">空调开启扫风</string>
+    <string name="stopWind">空调停止扫风</string>
+    <string name="queryTemperatrue">正在查询温度</string>
+    <string name="setTemperatrue">空调温度设置为</string>
+    <string name="temperatrue">度</string>
+    <string name="temperatrueUnkonw">温度没听清楚</string>
+    <string name="turnupTemperatrue">空调温度调高</string>
+    <string name="turndownTemperatrue">空调温度降低</string>
+    <!-- 机顶盒 -->
+    <string name="openSTB">按下机顶盒电源键</string>
+    <string name="closeSTB">按下机顶盒电源键</string>
+    <!-- num -->
+    <string name="negative">负</string>
+    <string name="one">一</string>
+    <string name="two">二</string>
+    <string name="two_">两</string>
+    <string name="three">三</string>
+    <string name="four">四</string>
+    <string name="five">五</string>
+    <string name="six">六</string>
+    <string name="seven">七</string>
+    <string name="eight">八</string>
+    <string name="nine">九</string>
+    <string name="ten">十</string>
+    <string name="ten_">一十</string>
+    <string name="eleven">十一</string>
+    <string name="twenty">二十</string>
+    <string name="thirty">三十</string>
+    <string name="forty">四十</string>
+    <string name="negative_ten">-十</string>
+    <string name="negative_ten_">-一十</string>
+    <string name="negative_twenty">-二十</string>
+    <string name="negative_thirty">-三十</string>
+    <string name="negative_forty">-四十</string>
+    <!-- zx005 -->
+
+    <!-- zx006 红外感应-->
+    <string name="hellos1">早上好</string>
+    <string name="hellos2">下午好</string>
+    <string name="hellos3">晚上好</string>
+
+    <string name="robotHellos1">你好啊</string>
+    <string name="robotHellos2">终于有人来陪我玩了</string>
+    <string name="robotHellos3">一个人好无聊啊</string>
+
+    <string name="open_sense">好的主人,打开红外感应</string>
+    <string name="close_sense">好的主人,关闭红外感应</string>
+
+    <string name="sense_lable">红外感应:</string>
+    <string name="sense_overtime">超时:</string>
+    <string name="sense_setovertime">更改超时值</string>
+    <string name="sense_minute">分钟</string>
+    <string name="sense_open">开</string>
+    <string name="sense_close">关</string>
+
+    <!-- zx006 -->
+
+    <!-- zx007 -->
+    <string name="ringoff">挂断</string>
+    <string name="call">打电话或接听</string>
+    <string name="ring">响铃,来电号码</string>
+    <string name="recvfrom">收到来自,</string>
+    <string name="de_sms">,的短信</string>
+    <string name="de_sms_ask">,的短信,是否读出来?</string>
+    <string name="sms_content_is">短信内容是</string>
+    <string name="readsms_yes1">是</string>
+    <string name="readsms_yes2"> 四</string>
+    <string name="readsms_yes3"> 死</string>
+    <string name="readsms_yes4"> 丝</string>
+    <string name="readsms_yes5"> 思</string>
+    <string name="readsms_yes6"> 斯</string>
+    <string name="readsms_yes7"> 4</string>
+    <string name="readsms_yes8">似</string>
+    <string name="readsms_yes9"> 读</string>
+    <string name="readsms_yes10"> 讲</string>
+    <string name="readsms_yes11"> 出来</string>
+    <string name="readsms_yes12">yes</string>
+    <string name="readsms_no1"> 不</string>
+    <string name="readsms_no2"> 别</string>
+    <string name="readsms_no3"> 否</string>
+    <string name="readsms_no4">no</string>
+    <!-- zx007 -->
+
+
+    <!-- zx008 -->
+    <string name="hunans1">湖南</string>
+    <string name="hunans2">长沙</string>
+    <string name="hunans3">芒果电视台</string>
+    <string name="hunans4">天天向上</string>
+    <string name="taiwans1">你去过台湾吗</string>
+    <string name="taiwans2">你知道台湾</string>
+    <string name="taiwans3">你知道台北</string>
+    <string name="taiwans4">你知道高雄</string>
+    <string name="dongbeis1">稀罕</string>
+    <string name="dongbeis2">瞎掰扯</string>
+    <string name="dongbeis3">寻思</string>
+    <string name="dongbeis4">脑瓜子</string>
+    <string name="dongbeis5">滚犊子</string>
+    <string name="dongbeis6">扯犊子</string>
+    <string name="dongbeis7">瞎叨叨</string>
+    <string name="dongbeis8">嘎达</string>
+    <string name="dongbeis9">内谁</string>
+    <string name="dongbeis10">葛哈</string>
+    <string name="dongbeis11">嗯呐</string>
+    <string name="dongbeis12">抓瞎</string>
+    <string name="dongbeis13">闲嘎嗒呀</string>
+    <string name="dongbeis14">点背</string>
+    <string name="dongbeis15">够呛</string>
+    <string name="dongbeis16">干仗</string>
+    <string name="dongbeis17">东北</string>
+    <string name="sichuans1">妹崽</string>
+    <string name="sichuans2">龟儿子</string>
+    <string name="sichuans3">管火</string>
+    <string name="sichuans4">打牙祭</string>
+    <string name="sichuans5">四川</string>
+    <string name="sichuans6">重庆</string>
+    <string name="sichuans7">成都</string>
+    <string name="guangdongs1">你知道广州吗</string>
+    <string name="guangdongs2">你去过广州吗</string>
+    <string name="guangdongs3">广州怎么样</string>
+    <string name="guangdongs4">闽南</string>
+    <string name="guangdongs5">你知道佛山吗</string>
+    <string name="guangdongs6">你去过佛山吗</string>
+    <string name="guangdongs7">佛山怎么样</string>
+    <string name="henans1">河南</string>
+    <string name="henans2">郑州</string>
+
+    <string name="laughs1">哈哈</string>
+    <string name="laughs2">真逗</string>
+    <string name="laughs3">逗死我了</string>
+
+    <string name="angrys1">生气</string>
+    <string name="angrys2">发火</string>
+    <string name="angrys3">火大</string>
+    <string name="angrys4">滚出去</string>
+    <string name="angrys5">走开</string>
+    <string name="angrys6">滚出去</string>
+    <string name="angrys7">痛恨</string>
+    <string name="angrys8">别烦我</string>
+
+    <string name="crys1">感动得流泪</string>
+    <string name="crys2">被欺负</string>
+    <string name="crys3">呜呜</string>
+    <string name="crys4">没人爱</string>
+    <string name="crys5">悲伤</string>
+    <string name="crys6">难受</string>
+    <string name="crys7">主人,不要我了</string>
+    <string name="crys8">被嫌弃了</string>
+    <string name="crys9">伤心</string>
+
+    <string name="hungrys1">饿了</string>
+    <string name="hungrys2">咕噜叫</string>
+    <string name="hungrys3">好饿</string>
+    <string name="hungrys4">有点饿</string>
+    <string name="hungrys5">饿死</string>
+
+    <string name="mengs1">萌萌哒</string>
+    <string name="mengs2">么么哒</string>
+    <string name="mengs3">矮油</string>
+    <string name="mengs4">卖萌</string>
+    <string name="mengs5">卡哇伊</string>
+    <string name="mengs6">好Q</string>
+
+    <string name="afraids1">不要打我</string>
+    <string name="afraids2">别打我</string>
+    <string name="afraids3">被呵呵了</string>
+    <string name="afraids4">吓尿了</string>
+    <string name="afraids5">小伙伴都惊呆了</string>
+    <string name="afraids6">好可怕</string>
+
+    <string name="jiayous1">加油</string>
+    <string name="jiayous2">努力</string>
+    <string name="jiayous3">好好工作</string>
+    <string name="jiayous4">好好学习</string>
+    <string name="jiayous5">天天向上</string>
+
+    <string name="learns1">读书</string>
+    <string name="learns2">学习</string>
+
+    <string name="sleeps1">好困</string>
+    <string name="sleeps2">没睡好</string>
+    <string name="sleeps3">瞌睡</string>
+    <string name="sleeps4">睡觉</string>
+
+    <string name="qinqins1">喜欢你</string>
+    <string name="qinqins2">亲亲</string>
+
+    <string name="quites1">我不说话了</string>
+    <string name="quites2">静一静</string>
+    <string name="quites3">静静</string>
+
+    <string name="yuns1">无语</string>
+    <string name="yuns2">我竟无言以对</string>
+
+    <string name="kus1">那当然啦</string>
+    <string name="kus2">我就是这么酷</string>
+    <string name="kus3">我是不是很厉害</string>
+    <string name="kus4">我就是这么厉害</string>
+
+    <string name="mEmotions1">不是不</string>
+    <string name="nEmotions1">不</string>
+
+    <!--  -->
+    <string name="robot_name_xy">机器人</string>
+    <string name="robot_default_name">机器人</string>
+    <string name="robot_default_name_DEV">机器人</string>
+    <string name="robot_default_name_ST">小二管家</string>
+    <string name="robot_default_name_CMCC">智能机器人</string>
+
+    <string name="robot_no_name1">我还没有名字呢，请尚董事长给我取个名字吧，几雨我生命</string>
+    <string name="robot_no_name2">我还没有名字呢，要不您帮我起一个，要好听一点的哦</string>
+
+    <string name="answer_name1">我叫</string>
+    <string name="answer_name2">我的名字是</string>
+    <string name="answer_name3">你可以叫我</string>
+    <string name="set_name_answer1">好的,我叫</string>
+    <string name="set_name_answer2">记住了,我叫</string>
+    <string name="set_name_answer3">记住了,以后我就叫</string>
+    <string name="set_name_answer4">记住了,以后我的名字是</string>
+    <string name="is_name">是啊,我就是</string>
+    <string name="not_is_name">不对,我叫</string>
+    <string name="CONTENT_ROBOT_NAME_URI">content://com.yongyida.robot.nameprovider//name</string>
+    <string name="chat_shutup1">好吧我不说话了</string>
+    <string name="chat_shutup2">那我去角落静一静</string>
+    <string name="chat_localism_close">方言功能关闭</string>
+    <string name="chat_localism_open">方言功能开启</string>
+    <string name="chat_can_not_know">真心不明白你在说什么</string>
+    <string name="chat_what">什么鬼</string>
+    <string name="chat_my_name">我的名字叫</string>
+    <!-- zx008 -->
+
+    <!-- 中国移动 -->
+    <string name="your_mother_name1">你有妈妈吗</string>
+    <string name="your_mother_name2">你[的]妈妈[的名字] 叫|是  什么|谁 </string>
+
+    <string name="your_father_name1">你有爸爸吗</string>
+    <string name="your_father_name2">你[的]爸爸[的名字] 叫|是  什么|谁 </string>
+
+    <string name="your_father_mother_name1">你[的]爸[爸]妈[妈] 叫|是 什么|谁</string>
+    <string name="your_father_mother_name2">你有爸[爸]妈[妈]吗</string>
+
+    <string name="your_home1">你来自哪里</string>
+    <string name="your_home2">你从哪里来</string>
+    <string name="your_home3">你是哪里  人|的 </string>
+
+    <string name="your_boss1">你的老板是谁 </string>
+
+    <string name="your_maker1">[你] 是谁 [把你] 创造|研发|制造 [出来] 的|了 [你]</string>
+
+
+    <string name="answer_who_mother1">中国移动就是我妈，我的老母亲，我最亲爱的人</string>
+    <string name="answer_who_mother2">说了我怕被绑架，我妈妈是中国移动哦</string>
+
+    <string name="answer_who_father1">移动就是我爸，羡慕吧</string>
+    <string name="answer_who_father2">说了我怕被绑架，我爸爸是中国移动哦</string>
+
+    <string name="answer_who_father_mother">移动是我家，爱我靠大家</string>
+
+    <string name="answer_home1">移动是我家，爱我靠大家</string>
+    <string name="answer_home2">我来自移动的大家庭，我爱我家，爱我靠大家</string>
+
+    <string name="answer_boss">说出来吓死你，我的大波士是大名鼎鼎的中国移动哦</string>
+
+    <string name="answer_maker1">是中国移动呢，很厉害吧</string>
+    <string name="answer_maker2">是移动爹爹哦</string>
+
+    <!-- 中国移动 -->
+
+
+    <!-- zx009 -->
+    <string name="today_weather">今天天气怎么样</string>
+    <string name="tomorrow_weather">明天天气怎么样</string>
+    <string name="listen_news">我要听新闻</string>
+    <string name="children_love_cooks">有什么小孩喜欢吃的菜</string>
+    <string name="player_joke">讲个笑话</string>
+    <string name="player_music">我要听音乐</string>
+    <string name="player_health">养生节目</string>
+    <string name="player_chaild_music">我要听儿歌</string>
+    <string name="player_story">讲一个故事</string>
+    <string name="helper_joke_recommend">笑一笑,十年少,主人,让我来给你讲个笑话吧,</string>
+    <string name="helper_health_recommend">主人,健康很重要哦,让我来给您放个养生节目吧,</string>
+    <string name="helper_story_recommend">无聊的时候我们来听个故事吧,</string>
+    <string name="helper_today_weather_recommend">主人,让我来告诉您今天的天气情况吧,</string>
+    <string name="helper_tomorrow_weather_recommend">主人,让我来告诉您明天的天气情况吧,</string>
+    <string name="helper_news_recommend">主人,让我来给您来个头条新闻吧,</string>
+    <string name="helper_music_recommend">主人,无聊的时候来首音乐放松下吧,</string>
+    <string name="helper_cook_recommend">主人,要想让小孩子吃得多,就得了解小孩喜欢吃什么,</string>
+    <!-- zx009 -->
+
+    <!-- music  -->
+    <string name="cannot_find_music_server">访问服务器的音乐资源失败</string>
+    <!-- music  -->
+
+    <!-- ysh整合master添加 -->
+    <!-- 百度界面 -->
+    <string name="web_page_loading_timeout">网络不稳定，搜索超时，请再说一遍</string>
+    <!-- 天气 -->
+    <string name="weather_final_one">主人，看好天气安排日程哦</string>
+    <string name="weather_final_two">天气预报仅做参考哦</string>
+    <!-- 红外感应 -->
+    <string name="smartsens_one">你好</string>
+    <string name="smartsens_two">来陪我玩呀</string>
+    <!-- 菜谱 -->
+    <string name="menu_one">主人，要多练习哦</string>
+    <string name="menu_two">感觉闻到香味了呢</string>
+    <!-- 国学知识 -->
+    <string name="chinese_learn_one">我是不是很厉害呀</string>
+    <string name="chinese_learn_two">感觉自己好棒的</string>
+    <!-- 睡前故事 -->
+    <string name="story_one">主人，该睡觉喽</string>
+    <string name="story_two">这个故事真好听</string>
+    <!-- 百科 -->
+    <string name="encyclopedia_final_one">我就是这么厉害</string>
+    <string name="encyclopedia_final_two">难不倒我吧！</string>
+    <string name="encyclopedia_before_one">这个我知道</string>
+    <string name="encyclopedia_before_two">简单</string>
+    <!-- 广场舞 儿歌 流行歌曲 -->
+    <string name="music_one">真好听</string>
+    <string name="music_two">听歌心情都变好了</string>
+    <!-- 地图查询 导航 -->
+    <string name="map_search_one">我真是个小神通！</string>
+    <string name="map_search_two">够清楚吧</string>
+    <!-- 地图定位 -->
+    <string name="map_location_one">我的方向感就是这么强</string>
+    <string name="map_location_two">这定位功能还挺好用</string>
+    <!-- 算术 -->
+    <string name="arithmetic_one">厉害如我！</string>
+    <string name="arithmetic_two">算术对我来说真是小菜一碟</string>
+    <string name="arithmetic_three">太简单了</string>
+    <!-- 戏曲 -->
+    <string name="chinois_one">真是让人陶醉</string>
+    <string name="chinois_two">国粹果然非同凡响</string>
+    <!-- 翻译 -->
+    <string name="translate_one">嘿嘿，中英文有什么难的</string>
+    <string name="translate_two">我真是厉害呢</string>
+    <!-- 跳舞 -->
+    <string name="dance_one">跳跳舞，真舒服</string>
+    <string name="dance_two">感觉自己又年轻了几岁</string>
+    <string name="dance_three">我跳得真是太好了</string>
+    <string name="dance_four">我怎么可以跳得这么好呢</string>
+    <string name="dance_five">被自己的舞姿迷倒了</string>
+    <string name="dance_six">我真是多才多艺呀</string>
+    <string name="dance_seven">我就是新一代舞神</string>
+    <string name="dance_eight">感觉自己棒棒哒</string>
+    <!-- 笑话 -->
+    <string name="Joke_one">哈哈哈</string>
+    <string name="Joke_two">真好笑</string>
+    <string name="Joke_three">笑一笑十年少</string>
+    <string name="Joke_four">被自己的幽默乐到了</string>
+    <string name="Joke_five">我真是太幽默了</string>
+    <!-- 智能家居 -->
+    <string name="smarthome_one">电视打开喽</string>
+    <string name="smarthome_two">主人，电视已经关掉啦</string>
+    <string name="smarthome_three">空调已经打开啦，主人</string>
+    <string name="smarthome_four">我已经把空调关掉了，主人</string>
+    <string name="smarthome_five">已经调节好温度了，主人</string>
+    <!-- 新闻 -->
+    <string name="news_one">知晓天下事，这是机器人的基本修养</string>
+    <string name="news_two">感觉自己知道的太多了</string>
+    <string name="news_three">我真是个小神通</string>
+    <!-- 习惯养成 -->
+    <string name="habit_one">主人，要养成好习惯哦</string>
+    <string name="habit_two">我们都要养成好习惯</string>
+
+    <!-- ysh整合master添加 -->
+
+    <!-- 日志查看界面 -->
+    <string name="view_log">查看日志</string>
+    <string name="export_log">导出日志</string>
+    <string name="clean_text">清除显示框</string>
+    <string name="clean_log">清除日志文件</string>
+    <string name="log_exit">退出</string>
+    <string name="log_time">时间</string>
+    <string name="default_time">"2016-01-01 00:00:00"</string>
+    <string name="log_packagename">包名</string>
+    <string name="module_name">模块名</string>
+    <string name="log_className">类名</string>
+    <string name="log_method">方法名</string>
+    <string name="log_info">信息</string>
+    <string name="log_tag">tag</string>
+
+    <!-- main -->
+    <string name="main_exit">退出</string>
+    <string name="main_log">查看日志</string>
+    <string name="main_module1">模拟启动chat子模块1</string>
+    <string name="main_module2">模拟启动music子模块1</string>
+    <string name="main_module3">模拟启动chat子模块2</string>
+    <string name="main_sub">模拟启动提醒子模块</string>
+    
+    <!-- chat -->
+    <string name="system_verson">版本号</string>
+    <string name="dot">点</string>
+    <string name="age_id_error">机器人ID不存在服务器数据库中</string>
+    <string name="age_query_error">查询年龄失败，请检查网络后重试</string>
+    <string name="age_tip_top">我</string>
+    <string name="age_text">岁</string>
+    <string name="age_text_zero">零</string>
+    <string name="age_text_month">个月</string>
+
+    
+</resources>

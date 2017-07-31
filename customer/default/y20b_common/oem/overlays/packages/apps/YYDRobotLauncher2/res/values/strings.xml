@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">YYDLauncher</string>
+    <string name="bugly_id" translatable="false">0c4e8be57d</string>
+
+    <!-- 默认机器人名称：小勇，使用类：NameDBHelper.java, onCreate() -->
+    <string name="default_robot_name" translatable="false">机器人</string>
+
+    <string name="now_time" translatable="false">"12:00"</string>
+    <string name="now_bt_level" translatable="false">"98%"</string>
+    <string name="title_back">Exit</string>
+    <string name="game_title">Games</string>
+    <string name="game_jelly">BraveJelly</string>
+    <string name="game_sheep">SaveSheep</string>
+    <string name="game_rich">RunningRich</string>
+    <string name="no_activity">"Do not support."</string>
+    <string name="restart">"Error occurred, app will restart."</string>
+    <string name="am" translatable="false">"AM"</string>
+    <string name="pm" translatable="false">"PM"</string>
+
+    <string name="app_float_button" translatable="false">"com.yongyida.robot.floatbutton"</string>
+
+    <string name="none" translatable="false">""</string>
+
+    <string name="test1" translatable="false">"for test1"</string>
+    <string name="test2" translatable="false">"test2"</string>
+
+    <string name="edu_title">Study</string>
+
+    <!-- HDMI -->
+    <string name="hdmi_title">Projector</string>
+    <string name="hdmi_on">ON</string>
+    <string name="hdmi_off">OFF</string>
+    <string name="hdmi_local">Internal screen</string>
+    <string name="hdmi_remote">External screen</string>
+
+    <string name="app_title">My Apps</string>
+    <string name="tools_title">Tools</string>
+    <string name="app_scanning">Scanning...</string>
+    <string name="app_version_name">"version"</string>
+    <string name="app_already_launch">Sorry, this App cannot be launched</string>
+    <string name="app_no_app_info">Sorry, cannot found App information.</string>
+    <string name="app_uninstall_cancel">Cancel</string>
+    <string name="app_uninstall_ok">OK</string>
+    <string name="app_uninstall_warning">Warning</string>
+    <string name="app_uninstall_message">You want to uninstall \n\"%1$s\"</string>
+    <string name="app_no_list">Did not find any third party applications.</string>
+    <string name="app_install">%s installed successfully.</string>
+    <string name="app_sys_upgrade">%s has been upgraded。</string>
+    <string name="app_uninstall">APP uninstalled successfully.</string>
+
+    <!-- 投影设置 -->
+    <string name="touyin_play">Display</string>
+    <string name="touyin_source">Signal select</string>
+    <string name="touyin_projection">Mode</string>
+    <string name="touyin_brightness">Brightness</string>
+    <string name="touyin_gsensor">G-sensor</string>
+    <string name="touyin_auto_adjust">Auto Keystone </string>
+    <string name="touyin_man_adjust">Manual correction</string>
+    <string name="touyin_digit_focus">Digital zoom</string>
+    <string name="touyin_wh_ratio">Aspect ratio</string>
+    <string name="touyin_btn_save">Save</string>
+    <string name="touyin_btn_std">Standard</string>
+    <string name="touyin_btn_back">Back projection</string>
+    <string name="touyin_btn_front">Front projection</string>
+    <string name="touyin_btn_local">Local</string>
+    <string name="touyin_btn_hdmi">HDMI</string>
+    <string name="touyin_power" >Power</string>
+    <string name="touyin_on" >ON</string>
+    <string name="touyin_off" >OFF</string>
+    <string name="touyin_more">More</string>
+    <string name="touyin_play_definition">Default definition</string>
+    <string name="touyin_play_definition_desc">Play online video priority use of clarity</string>
+    <string name="touyin_play_over">Skip the opening credits</string>
+    <string name="touyin_play_ratio">Aspect ratio</string>
+    <string name="touyin_play_ratio_desc">Play online video whether mandatory full screen</string>
+    <string name="touyin_gsensor_on" >ON</string>
+    <string name="touyin_gsensor_off" >OFF</string>
+    <string name="touyin_origin_scale" >Original proportion</string>
+    <string name="touyin_force_scale" >Full Screen</string>
+    <string name="touyin_df_high" >HDMI</string>
+    <string name="touyin_df_1080" >1080P</string>
+    <string name="touyin_df_720" >720P</string>
+    <string name="touyin_wh_16_9" >"16:9"</string>
+    <string name="touyin_wh_4_3" >"4:3"</string>
+    <string name="touyin_reverse_gsensor" >Reverse G-sensor</string>
+
+    <!-- 学习界面 -->
+    <string name="button">Button</string>
+    <string name="stop">Stop</string>
+    <string name="start">Play</string>
+    <string name="pause">Pause</string>
+    <string name="continue1">Continue</string>
+    <string name="back">Exit</string>
+    <string name="time">00:00</string>
+    <string name="text_null">""</string>
+    <string name="get_music_list_error">No network connection!</string>
+    <string name="random_play">"Shuffle mode "</string>
+    <string name="single_play">"Single loop mode"</string>
+    <string name="all_play">"All play mode"</string>
+    <string name="open_arithmetic" translatable="false">"{\"service\":\"qusetion\",\"text\":\"学习算术。\"," + "\"semantic\":{\"slots\":{\"arith\":\"arithmetic\"}},\"rc\":0}"</string>
+</resources>

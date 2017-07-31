@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 本檔含有y20a和y20b的資源，請修改對應部分。y20b的資源定義在本文中間靠後 -->
+<resources>
+    <!-- 學習介面的應用標題 -->
+    <string name="edu_title_poem">詩詞</string>
+    <string name="edu_title_arithmetic">算術</string>
+    <string name="edu_title_music">歌曲</string>
+    <string name="edu_title_traditional">國學</string>
+    <string name="edu_title_story">故事</string>
+    <string name="edu_title_habit">習慣養成</string>
+    <string name="edu_title_wiKi">百科</string>
+    <string name="edu_title_square_dance">廣場舞</string>
+    <string name="edu_title_opera">戲曲</string>
+
+    <!-- **************************** y20a_dev的專案主菜單名稱 **************************** -->
+    <!-- 主菜單名稱 -->
+    <string-array name="menu_item_title">
+        <item>健康管家</item>
+        <item>設置</item>
+        <item>投影</item>
+        <!-- <item>通訊錄</item> -->
+        <item>電話</item>
+        <!-- <item>學習</item> -->
+        <item>文藝館</item>
+        <item>遊戲</item>
+        <item>工具</item>
+        <item>我的應用</item>
+        <!-- <item>視訊會議</item> -->
+        <item>文檔管理</item>
+        <item>相冊</item>
+        <!-- <item>小勇AR</item> -->
+        <!-- <item>文檔管理</item> -->
+    </string-array>
+    
+    <!-- **************************** y20b_dev的專案主菜單名稱 **************************** -->
+    <!-- y20b主菜單名稱 -->
+    <string-array name="menu_item_title_y20b">
+        <item>健康管家</item>
+        <item>設置</item>
+        <!-- <item>投影</item> -->
+        <!-- <item>通訊錄</item> -->
+        <!--<item>電話</item>-->
+        <item>學習</item>
+        <item>文藝館</item>
+        <item>遊戲</item>
+        <item>工具</item>
+        <item>我的應用</item>
+    	<!-- <item>視訊會議</item> -->
+        <item>文檔管理</item>
+        <item>相冊</item>
+		<item>小勇AR</item>
+		<!--<item>文檔管理</item>-->
+    </string-array>
+
+    <!-- **************************** y50bpro的專案主菜單名稱 **************************** -->
+    <string-array name="menu_item_title_y50bpro">
+        <item>健康管家</item>
+        <item>設置</item>
+        <item>遙控器</item>
+        <!--  <item>遙控器</item> -->
+        <!--    <item>通訊錄</item>-->
+        <item>電話</item>
+        <item>學習</item>
+        <item>文藝館</item>
+        <!--  <item>小勇AR</item> -->
+        <item>遊戲</item>
+        <item>工具</item>
+        <item>我的應用</item>
+        <item>小勇檔案</item>
+        <item>文檔管理</item>
+        <item>相冊</item>
+    </string-array>
+</resources>
